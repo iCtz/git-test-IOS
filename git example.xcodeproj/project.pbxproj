@@ -15,6 +15,7 @@
 		2BDEB22F1A3B31180092D5D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEB22E1A3B31180092D5D2 /* Images.xcassets */; };
 		2BDEB2321A3B31180092D5D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEB2301A3B31180092D5D2 /* LaunchScreen.xib */; };
 		2BDEB23E1A3B31180092D5D2 /* git_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEB23D1A3B31180092D5D2 /* git_exampleTests.m */; };
+		2BDEB2491A3B3EA90092D5D2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEB2481A3B3EA90092D5D2 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		2BDEB2371A3B31180092D5D2 /* git exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDEB23C1A3B31180092D5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDEB23D1A3B31180092D5D2 /* git_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_exampleTests.m; sourceTree = "<group>"; };
+		2BDEB2471A3B3EA90092D5D2 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		2BDEB2481A3B3EA90092D5D2 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				2BDEB2231A3B31180092D5D2 /* AppDelegate.m */,
 				2BDEB2281A3B31180092D5D2 /* ViewController.h */,
 				2BDEB2291A3B31180092D5D2 /* ViewController.m */,
+				2BDEB2471A3B3EA90092D5D2 /* Test.h */,
+				2BDEB2481A3B3EA90092D5D2 /* Test.m */,
 				2BDEB22B1A3B31180092D5D2 /* Main.storyboard */,
 				2BDEB22E1A3B31180092D5D2 /* Images.xcassets */,
 				2BDEB2301A3B31180092D5D2 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDEB2491A3B3EA90092D5D2 /* Test.m in Sources */,
 				2BDEB2271A3B31180092D5D2 /* git_example.xcdatamodeld in Sources */,
 				2BDEB2241A3B31180092D5D2 /* AppDelegate.m in Sources */,
 				2BDEB22A1A3B31180092D5D2 /* ViewController.m in Sources */,
